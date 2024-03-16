@@ -16,3 +16,7 @@ test('the header has the correct text', async () => {
 
   expect(text).toEqual('Blogster');
 });
+
+test('equation which should be correct', async () => {
+  expect(1+2).toEqual(3);
+})
