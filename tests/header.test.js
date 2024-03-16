@@ -18,5 +18,5 @@ test('the header has the correct text', async () => {
 });
 
 test('equation which should be correct', async () => {
-  expect(1+2).toEqual(3);
+  expect(1+4).toEqual(3);
 })
